@@ -1,7 +1,11 @@
 {
   "name": "gh-ui",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "main": "dist/gh-ui.umd.min.js",
+  "author": {
+    "name": "chenguohua"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
